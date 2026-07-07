@@ -1,0 +1,39 @@
+Tech Stack for PDF Content Extraction from Infosys ESG Report
+Programming Language
+•	Python 3.12 (used throughout the project) 
+Core Libraries
+•	pdfplumber – Extracting textual content and tables from the PDF. 
+•	PyMuPDF (fitz) – Extracting embedded images from the PDF. 
+•	Pandas – Converting extracted tables into CSV format for structured data storage. 
+•	Pillow (PIL) – Converting extracted JPX images into JPEG format. 
+•	os – Creating folders and handling file system operations. 
+•	pathlib (optional) – Managing file paths across Windows. 
+Extraction Scripts
+•	extract.py – Extracts textual content from the PDF and saves it into an output.txt file. 
+•	table_extract.py – Extracts tables from the PDF and stores them as separate CSV files. 
+•	image_extract.py – Extracts embedded images from the PDF using PyMuPDF. 
+•	convert_images.py – Converts extracted JPX images into JPEG format. 
+Data Storage
+•	output.txt – Stores all extracted textual content. 
+•	CSV files – Stores extracted tables (table_pageX_Y.csv). 
+•	images/ – Stores extracted images from the PDF. 
+•	jpeg_images/ – Stores converted JPEG images. 
+Development Environment
+•	Visual Studio Code (VS Code) – Code editor used for development. 
+•	Windows 10/11 – Operating system. 
+•	Python Virtual Environment (optional) – For dependency management. 
+Dependency Management
+•	pip – Installing required Python libraries. 
+Installed Packages
+•	pdfplumber 
+•	pymupdf 
+•	pandas 
+•	pillow 
+Output Generated
+•	Extracted text (output.txt) 
+•	Extracted tables (.csv) 
+•	Extracted images (.jpx) 
+•	Converted JPEG images (.jpg) 
+Version Control 
+•	Git 
+•	Github 
