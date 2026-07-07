@@ -3,7 +3,7 @@ import os
 
 pdf_path = "infosys-esg-report-2025-26.pdf"
 
-# Image save karne ke liye folder
+
 output_folder = "images"
 os.makedirs(output_folder, exist_ok=True)
 
